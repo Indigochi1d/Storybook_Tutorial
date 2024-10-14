@@ -7,6 +7,9 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
   ],
+  features:{
+    postcss:false,
+  },
   framework: {
     name: "@storybook/react-vite",
     options: {},
